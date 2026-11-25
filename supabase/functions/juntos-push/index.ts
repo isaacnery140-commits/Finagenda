@@ -4,7 +4,7 @@ import webpush from "npm:web-push@3.6.7";
 import { createClient } from "npm:@supabase/supabase-js@2";
 
 const sb = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
-const APP_URL = "https://isaacnery140-commits.github.io/controle-de-gastos/juntos/";
+const APP_URL = "https://finagenda.com.br/";
 const json = (o: unknown, status = 200) =>
   new Response(JSON.stringify(o), { status, headers: { "Content-Type": "application/json" } });
 
