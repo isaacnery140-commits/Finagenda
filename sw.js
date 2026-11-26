@@ -1,5 +1,5 @@
 // Guarda os arquivos do app para abrir rápido e como app instalado. Os dados sempre vêm do servidor.
-const CACHE = "finagenda-v10";
+const CACHE = "finagenda-v11";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./fatura.js", "./legal.css", "./termos.html", "./privacidade.html", "./suporte.html"];
 const LIB = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js";
 self.addEventListener("install", e => {
